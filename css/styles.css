@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
 
@@ -11,7 +11,7 @@ body {
   color: #2e2f42;
   text-transform: uppercase;
   line-height: 21px;
-  letter: spacing 3%;
+  letter-spacing: 0.03em;
 }
 .header-logo-color {
   font-family: "Raleway";
@@ -20,24 +20,24 @@ body {
   color: #4d5ae5;
   text-transform: uppercase;
   line-height: 21px;
-  letter: spacing 3%;
+  letter-spacing: 0.03em;
 }
-.header-list,
-.address-list,
 .strategy-list,
 .team-list,
 .portfolio-list {
-  list-style-type: none;
+  list-style: none;
   text-decoration: none;
 }
 .header-list {
+  list-style: none;
   text-decoration: none;
-  font-family: "Roboto" sans-serif;
-  font-size: 16;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 2%;
-  color: 2e2F42;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 
   display: block;
   margin-block-start: 1em;
@@ -46,25 +46,36 @@ body {
   margin-inline-end: 0px;
 }
 .address-list {
+  cursor: pointer;
+  list-style: none;
   text-decoration: none;
   font-style: normal;
   text-decoration: none;
-  font-family: "Roboto" sans-serif;
-  font-size: 16;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 400;
 }
+.address-list a,
+.header-list a {
+  text-decoration: none;
+}
 
-.title {
+.section {
   background-color: #2e2f42;
-  color: white;
   text-align: center;
+}
+.title {
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: white;
 }
 
 .title-button {
-  text-align: ;
   color: white;
   background-color: #4d5ae5;
-  box-sizing: border-box;
 }
 .section-title {
   text-align: center;
@@ -72,6 +83,7 @@ body {
 .section-team {
   background-color: #f4f4fd;
 }
+
 .footer {
   background-color: #2e2f42;
 }
@@ -82,7 +94,7 @@ body {
   color: #4d5ae5;
   text-transform: uppercase;
   line-height: 21px;
-  letter: spacing 3%;
+  letter-spacing: 0.03em;
 }
 .footer-logo {
   text-decoration: none;
@@ -92,7 +104,7 @@ body {
   color: #f4f4fd;
   text-transform: uppercase;
   line-height: 21px;
-  letter: spacing 3%;
+  letter-spacing: 0.03em;
 }
 .footer-text {
   color: #f4f4fd;
