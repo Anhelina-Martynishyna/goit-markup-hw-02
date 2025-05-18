@@ -39,15 +39,15 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #404bbf;
 }
 .header-navigation-list a {
   text-decoration: none;
   color: #2e2f42;
 }
-.header-navigation-list:hover {
+.header-navigation-list a:hover {
   color: #404bbf;
 }
+
 .header-navigation-list a:focus {
   color:#404bbf;
 }
@@ -66,7 +66,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-address-list:hover {
+.header-address-list a:hover {
   color: #404bbf;
 }
 .header-address-list a:focus {
