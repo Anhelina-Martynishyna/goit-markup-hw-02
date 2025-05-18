@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
   color: #434455;
   background-color: #ffffff;
 }
@@ -12,7 +11,7 @@ body {
   font-weight: 700;
   color: #4d5ae5;
   text-transform: uppercase;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 .header-logo-color {
@@ -22,15 +21,16 @@ body {
   color: #2e2f42;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  line-height: 1.17px;
+  line-height: 1.17;
 }
 .strategy-strategy-list,
 .secton-team-list,
-.portfolio-list {
+.portfolio-list,
+.section-strategy {
   list-style: none;
   text-decoration: none;
 }
-.header-list {
+.header-navigation-list {
   list-style: none;
   text-decoration: none;
   cursor: pointer;
@@ -41,14 +41,23 @@ body {
   letter-spacing: 0.02em;
   color: #404bbf;
 }
-.header-list:hover {
+.header-navigation-list a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.header-navigation-list:hover {
   color: #404bbf;
+}
+.header-navigation-list a:focus {
+  color:#404bbf;
+}
+.header-address {
+  font-style: normal;
 }
 .header-address-list {
   cursor: pointer;
   list-style: none;
   text-decoration: none;
-  font-style: normal;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -60,8 +69,10 @@ body {
 .header-address-list:hover {
   color: #404bbf;
 }
-.header-address-list a,
-.header-list a {
+.header-address-list a:focus {
+  color: #404bbf;
+}
+.header-address-list a {
   text-decoration: none;
 }
 
@@ -90,12 +101,19 @@ body {
 .title-button:hover {
   background-color: #404bbf;
 }
+.title-button:focus {
+  background-color: #404BBF;
+}
+
 .section-title {
   text-align: center;
   font-weight: font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+.section-strategy-list {
+  background-color: #FFFFFF;
 }
 .strategy-subtitle {
   font-weight: 500;
@@ -146,7 +164,7 @@ color: #2e2f42;
   text-transform: capitalize;
   color: #2e2f42;
 }
-.section-team-subtitle {
+.section-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -173,12 +191,12 @@ color: #2e2f42;
 }
 .footer-logo {
   text-decoration: none;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #4d5ae5;
   text-transform: uppercase;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 .footer-text {
