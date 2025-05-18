@@ -55,6 +55,7 @@ body {
   font-style: normal;
 }
 .header-address-list {
+  color: #434455;
   cursor: pointer;
   list-style: none;
   text-decoration: none;
@@ -64,8 +65,8 @@ body {
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.02em;
-  color: #434455;
 }
+
 .header-address-list a:hover {
   color: #404bbf;
 }
@@ -140,7 +141,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
 }
-.section--team-list {
+.secton--team-list {
   background-color: #FFFFFF;
 }
 .section-team-subtitle {
